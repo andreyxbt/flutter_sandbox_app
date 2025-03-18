@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widgetbook_annotation/widgetbook_annotation.dart';
-import 'package:flutter_sandbox_app/widgets/standard_button.dart';
+import 'package:shared_design/shared_design.dart';
 
 @UseCase(name: 'Primary', type: StandardButton)
 Widget primaryButton(BuildContext context) {
