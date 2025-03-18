@@ -21,7 +21,7 @@ final directories = <_i1.WidgetbookNode>[
       _i1.WidgetbookLeafComponent(
         name: 'ContentCard',
         useCase: _i1.WidgetbookUseCase(
-          name: 'Primary',
+          name: 'ContentCard',
           builder: _i2.buildContentCard,
           designLink:
               'https://www.figma.com/design/BjmdidlW8EBIJ3jasncm6Y/test_card?node-id=1-5&t=nGc5D38owAJiNVnX-4',
