@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:widgetbook_annotation/widgetbook_annotation.dart';
 import 'package:shared_design/shared_design.dart';
 
-@UseCase(name: 'Primary', type: ContentCard, designLink: "https://www.figma.com/design/BjmdidlW8EBIJ3jasncm6Y/test_card?node-id=1-5&t=nGc5D38owAJiNVnX-4")
+@UseCase(name: 'ContentCard', type: ContentCard, designLink: "https://www.figma.com/design/BjmdidlW8EBIJ3jasncm6Y/test_card?node-id=1-5&t=nGc5D38owAJiNVnX-4")
 Widget buildContentCard(BuildContext context) {
   return ContentCard(
     headline: 'Welcome',
