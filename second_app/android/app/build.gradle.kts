@@ -33,6 +33,10 @@ android {
     }
 }
 
+dependencies {
+    implementation("com.google.android.play:core-ktx:1.8.1")    // Updated to core-ktx which includes all necessary classes
+}
+
 flutter {
     source = "../.."
 }

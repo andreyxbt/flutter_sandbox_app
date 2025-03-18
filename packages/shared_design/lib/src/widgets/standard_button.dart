@@ -9,11 +9,13 @@ enum ButtonState {
 class StandardButton extends StatelessWidget {
   final String text;
   final ButtonState state;
+  final VoidCallback? onPressed;
 
   const StandardButton({
     super.key,
     required this.text,
     required this.state,
+    this.onPressed,
   });
 
   @override
@@ -37,7 +39,7 @@ class StandardButton extends StatelessWidget {
     }
 
     return ElevatedButton(
-      onPressed: state == ButtonState.disabled ? null : () {},
+      onPressed: state == ButtonState.disabled ? null : onPressed,
       style: ElevatedButton.styleFrom(
         textStyle: TextStyle(color: textColor),
         backgroundColor: backgroundColor,
