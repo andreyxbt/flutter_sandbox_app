@@ -1,0 +1,2 @@
+D:/development/flutter test app/flutter_sandbox_app/second_app/android/app/.cxx/Debug/2g134x48/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/development/flutter test app/flutter_sandbox_app/second_app/android/app/.cxx/Debug/2g134x48/armeabi-v7a/CMakeFiles/rebuild_cache.dir
